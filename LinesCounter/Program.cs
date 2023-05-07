@@ -14,7 +14,7 @@ foreach (var file in files)
 	if ((file.Extension == ".cs" || file.Extension == ".xaml") && !file.Name.Contains("AssemblyInfo") && !file.FullName.Contains("\\obj\\") && !file.FullName.Contains("\\bin\\")) //&& !Regex.IsMatch(file.Name,"[.].*[.]")
 	{
 		var data = File.ReadAllLines(file.FullName);
-		var count = data.Count(x => !string.IsNullOrWhiteSpace(x));
+		var count = data.Count(x => !string.IsNullOrWhiteSpace(x) && !x.Contains("using"));
 		var symb = data.Sum(x => x.Length);
 		Console.WriteLine(file.Name + ": " + count + ": " + symb);
 		counter += count;
