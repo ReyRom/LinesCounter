@@ -1,0 +1,5 @@
+C:\Users\s03ro\OneDrive\Документы\Code\LinesCounter\LinesCounter\bin\Release\net6.0\publish\LinesCounter.exe
+C:\Users\s03ro\OneDrive\Документы\Code\LinesCounter\LinesCounter\bin\Release\net6.0\publish\LinesCounter.dll
+C:\Users\s03ro\OneDrive\Документы\Code\LinesCounter\LinesCounter\bin\Release\net6.0\publish\LinesCounter.deps.json
+C:\Users\s03ro\OneDrive\Документы\Code\LinesCounter\LinesCounter\bin\Release\net6.0\publish\LinesCounter.runtimeconfig.json
+C:\Users\s03ro\OneDrive\Документы\Code\LinesCounter\LinesCounter\bin\Release\net6.0\publish\LinesCounter.pdb
